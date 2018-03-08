@@ -14,8 +14,8 @@
             android:title="About" />
         <item
             android:id="@+id/nav_legal"
-            android:icon="@drawable/legal"
-            android:title="Legal" />
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Location" />
         <item
             android:id="@+id/nav_order"
             android:icon="@drawable/cart"
