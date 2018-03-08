@@ -3,5 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="yellow">#dcd500</color>
+    <color name="yellow">#E5DB37</color>
+    <color name="wheat">#FFFF</color>
+    <color name="healthygreen">#60BA28</color>
+    <color name="tortillaOrange">#F79E00</color>
+    <color name="redSauce">#E85C1E</color>
 </resources>
