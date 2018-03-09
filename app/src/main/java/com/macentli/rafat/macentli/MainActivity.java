@@ -95,9 +95,10 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_legal) {
+            // location
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.mainFrameLayout, new LegalFragment());
+            fragmentTransaction.replace(R.id.mainFrameLayout, new MapsFragment());
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_order) {
@@ -107,6 +108,10 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_share) {
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.mainFrameLayout, new LegalFragment());
+            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_send) {
 
