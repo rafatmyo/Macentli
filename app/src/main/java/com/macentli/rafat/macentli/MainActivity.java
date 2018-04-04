@@ -113,6 +113,12 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.mainFrameLayout, new LegalFragment());
             fragmentTransaction.commit();
 
+        } else if (id == R.id.nav_succ) {
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.mainFrameLayout, new SuccFragment());
+            fragmentTransaction.commit();
+
         } else if (id == R.id.nav_send) {
 
         }
