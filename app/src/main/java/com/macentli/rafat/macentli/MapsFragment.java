@@ -19,6 +19,8 @@ import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -68,17 +70,39 @@ public class MapsFragment extends Fragment {
                 googleMap.setMyLocationEnabled(true);
 
                 // For dropping a marker at a point on the Map
-                LatLng sydney = new LatLng(-34, 151);
-                googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
 
-                LatLng macentliUno = new LatLng(18.934098,-99.2139566);
-                googleMap.addMarker(new MarkerOptions().position(macentliUno).title("Macentli Uno").snippet("Macentli Uno"));
 
-                LatLng macentliDos = new LatLng(18.9501675,-99.2332886);
-                googleMap.addMarker(new MarkerOptions().position(macentliDos).title("Macentli Dos").snippet("Macentli Dos"));
+
+                LatLng amalur = new LatLng(18.933748, -99.213990);
+                googleMap.addMarker(new MarkerOptions().position(amalur).title("Amalur Tienda Organica").snippet("Amalur Tienda Organica"));
+
+                LatLng shaya = new LatLng(18.950165,-99.231121);
+                googleMap.addMarker(new MarkerOptions().position(shaya).title("Centro Naturista Shaya Michan").snippet("Centro Naturista Shaya Michan"));
+
+                LatLng itzel = new LatLng(18.953065,-99.231346);
+                googleMap.addMarker(new MarkerOptions().position(itzel).title("Farmacia Naturista Itzel").snippet("Farmacia Naturista Itzel"));
+
+                LatLng galo = new LatLng(18.941885,-99.232548);
+                googleMap.addMarker(new MarkerOptions().position(galo).title("Fruteria Los Galo").snippet("Fruteria Los Galo"));
+
+                LatLng santa = new LatLng(18.952878, -99.219693);
+                googleMap.addMarker(new MarkerOptions().position(santa).title("Santa Marina").snippet("Interior del Mercado de Lomas de Cortez"));
+
+                LatLng plazac = new LatLng( 18.934231, -99.228822);
+                googleMap.addMarker(new MarkerOptions().position(plazac).title("Plaza Cuernavaca").snippet("Local E7 Pasillo Arbolado"));
+
+                LatLng gaia = new LatLng(18.961466,-99.246376);
+                googleMap.addMarker(new MarkerOptions().position(gaia).title("Gaia").snippet("Junto a Farm de Similares"));
+
+                LatLng mercadito = new LatLng(18.977204,-99.253416);
+                googleMap.addMarker(new MarkerOptions().position(mercadito).title("Mercadito Organico").snippet("Mercadito Organico"));
+
+                LatLng huerta = new LatLng(18.975128,-99.207410);
+                googleMap.addMarker(new MarkerOptions().position(huerta).title("Huerta de Lucia").snippet("Huerta de Lucia"));
+
 
                 // For zooming automatically to the location of the marker
-                CameraPosition cameraPosition = new CameraPosition.Builder().target(macentliUno).zoom(12).build();
+                CameraPosition cameraPosition = new CameraPosition.Builder().target(shaya).zoom(12).build();
                 googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
             }
         });
