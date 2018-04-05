@@ -24,9 +24,10 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:text="Calorías............... 23"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -34,9 +35,10 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="32dp"
         android:text="Grasa................. 0.3 g"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -44,9 +46,10 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="32dp"
         android:text="Carbohidratos....... 4.78 g"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -57,6 +60,7 @@
         android:layout_marginBottom="196dp"
         android:text="Proteínas....... 0.61 g"
         android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 </android.support.constraint.ConstraintLayout>

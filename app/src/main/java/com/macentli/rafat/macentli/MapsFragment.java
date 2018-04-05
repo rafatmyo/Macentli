@@ -3,7 +3,9 @@ package com.macentli.rafat.macentli;
 
 import android.Manifest;
 import android.app.Fragment;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
@@ -66,11 +68,12 @@ public class MapsFragment extends Fragment {
             public void onMapReady(GoogleMap mMap) {
                 googleMap = mMap;
 
+
+
                 // For showing a move to my location button
                 googleMap.setMyLocationEnabled(true);
 
                 // For dropping a marker at a point on the Map
-
 
 
                 LatLng amalur = new LatLng(18.933748, -99.213990);
@@ -110,6 +113,8 @@ public class MapsFragment extends Fragment {
         return rootView;
 
     }
+
+
 
     public boolean checkLocationPermission() {
 
