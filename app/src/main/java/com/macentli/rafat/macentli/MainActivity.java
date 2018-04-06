@@ -15,9 +15,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayerFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private String key = "AIzaSyAgOyp6QoqaMH-PWLCW2YOqy6hT4C74auA";
+    private String uri = "Oibs4arStNA";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,7 +132,25 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_media) {
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.mainFrameLayout, new MediaFragment());
+
+            YouTubePlayerFragment youTubePlayerFragment = new YouTubePlayerFragment();
+            youTubePlayerFragment.initialize(key, new YouTubePlayer.OnInitializedListener() {
+                @Override
+                public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+                    Toast.makeText(getApplicationContext(), "Youtube Enabled", Toast.LENGTH_SHORT).show();
+
+                    if(!b) {
+                        youTubePlayer.cueVideo(uri);
+                    }
+                }
+
+                @Override
+                public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+
+                }
+            });
+
+            fragmentTransaction.replace(R.id.mainFrameLayout, youTubePlayerFragment);
             fragmentTransaction.commit();
 
 
