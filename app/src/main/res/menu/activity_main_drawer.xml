@@ -7,7 +7,7 @@
         <item
             android:id="@+id/nav_info"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="Infor nutricional" />
+            android:title="Informacion nutrimental" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
@@ -15,11 +15,11 @@
         <item
             android:id="@+id/nav_media"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Media" />
+            android:title="Medios" />
         <item
             android:id="@+id/nav_legal"
             android:icon="@android:drawable/ic_menu_mylocation"
-            android:title="Location" />
+            android:title="Ubicaciones" />
         <item
             android:id="@+id/nav_succ"
             android:icon="@android:drawable/ic_menu_myplaces"

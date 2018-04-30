@@ -6,61 +6,75 @@
     tools:context="com.macentli.rafat.macentli.InfoFragment">
 
 
-    <TextView
-        android:id="@+id/textView4"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Informacion Nutrimental"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Calorías............... 23"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Grasa................. 0.3 g"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Carbohidratos....... 4.78 g"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView9"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
-        android:text="Proteínas....... 0.61 g"
-        android:textAlignment="center"
-        android:textSize="18sp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Una pieza de 25g aporta:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/saturada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grasa Saturada: 0 Kcal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/otras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otras Grasas: 0 Kcal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/azucares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azucares: 0 Kcal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sodio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sodio: 3 g"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fibra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fibra Dietetica: 3.5 g"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/energia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energia: 42 Kcal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/envase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energia por envase: 504 Kcal"
+            android:textSize="24sp" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
