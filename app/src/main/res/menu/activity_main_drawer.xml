@@ -7,39 +7,39 @@
         <item
             android:id="@+id/nav_info"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="Informacion nutrimental" />
+            android:title="@string/info" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/about"
-            android:title="¿Quiénes Somos?" />
+            android:title="@string/quien" />
         <item
             android:id="@+id/nav_media"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Medios" />
+            android:title="@string/medios" />
         <item
             android:id="@+id/nav_legal"
             android:icon="@android:drawable/ic_menu_mylocation"
-            android:title="Ubicaciones" />
+            android:title="@string/ubi" />
         <item
             android:id="@+id/nav_succ"
             android:icon="@android:drawable/ic_menu_myplaces"
-            android:title="Sucursales" />
+            android:title="@string/succ" />
         <item
             android:id="@+id/nav_order"
             android:icon="@drawable/cart"
-            android:title="Order" />
+            android:title="@string/order" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/comu">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/compartir" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/enviar" />
         </menu>
     </item>
 

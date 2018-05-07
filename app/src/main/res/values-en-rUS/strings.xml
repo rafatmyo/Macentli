@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tortillas">100% Organic Tortillas</string>
+    <string name="compartir">Share</string>
+    <string name="enviar">Send</string>
+    <string name="comu">Communicate</string>
+    <string name="somos">We are a socially responsible company that makes tortillas with germinated creole corn of the central region of the mexican republic. Made with a nixtamalización process designed to store a high content of fiber and a high nutritional value we achieve to create a not only healthy but a delicious tortilla superior to any in the market.</string>
+    <string name="pieza">A piece of 25g has:</string>
+
+    <string name="grasasat">Saturated Fat: 0 Kcal</string>
+    <string name="grasaotra">Other Fat: 0 Kcal</string>
+    <string name="azucar">Glucose: 0 Kcal</string>
+    <string name="sodio">Sodium: 3 g</string>
+    <string name="fibra">Diet Fiber: 3.5 g</string>
+    <string name="energia">Energy: 42 Kcal</string>
+    <string name="envase">Energy per package: 504 Kcal</string>
+
+    <string name="azul">Blue Dozen</string>
+    <string name="amarillo">Yellow Dozen</string>
+
+    <string name="info">Nutritional information</string>
+    <string name="quien">Who are we?</string>
+    <string name="medios">Media</string>
+    <string name="ubi">Locations</string>
+    <string name="succ">Stores</string>
+    <string name="order">Order</string>
+
+    <string-array name="Addresses">
+        <item>Amalur Rio Mayo 1100 plaza El Campanario Phone: (777) 322 9012</item>
+        <item>Shaya Michan Av. Nueva Italia No. 607 Col. Sn Cristobal Phone: (777) 102 1121</item>
+        <item>Naturist Pharmacy Itzel Av. Vicente Guerrero No 100</item>
+        <item>Fruit Store Los Galo Av. Poder Legislativo</item>
+        <item>Santa Marina Interior del Mercado de Lomas de Cortez</item>
+        <item>Edén Interior Plaza Cuernavaca Local E7 Pasillo Arbolado Phone: (777) 245 7016</item>
+        <item>Gaia Av. Emiliano Zapata No. 921A Col. Bna Vista (junto a Farm de Similares) Phone: (777) 311 2490</item>
+        <item>Organic Market Av. Santa María Col. Rancho Cortes</item>
+        <item>Huerta de Lucia Calle Alarcón No. 249 Poblado de Ahuatepec.</item>
+
+    </string-array>
+</resources>

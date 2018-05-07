@@ -14,7 +14,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Somos una compañía socialmente responsable que elabora tortillas con maíz criollo germinado de la región central de la república mexicana. Mediante un proceso de nixtamalización diseñado para conservar un alto contenido de fibra y un alto valor nutrimental logramos hacer una tortilla que además de ser saludable tiene un sabor superior a las demás.  Contribuimos para preservar el cultivo de maíces nativos y llevar hasta su mesa un producto de alta calidad. "
+        android:text="@string/somos"
         android:textAlignment="viewStart"
         android:textColor="@color/wheat"
         android:textSize="18sp"

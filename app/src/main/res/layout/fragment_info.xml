@@ -25,56 +25,56 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Una pieza de 25g aporta:"
+            android:text="@string/pieza"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <TextView
             android:id="@+id/saturada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Grasa Saturada: 0 Kcal"
+            android:text="@string/grasasat"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/otras"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Otras Grasas: 0 Kcal"
+            android:text="@string/grasaotra"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/azucares"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Azucares: 0 Kcal"
+            android:text="@string/azucar"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/sodio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sodio: 3 g"
+            android:text="@string/sodio"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/fibra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fibra Dietetica: 3.5 g"
+            android:text="@string/fibra"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/energia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Energia: 42 Kcal"
+            android:text="@string/energia"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/envase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Energia por envase: 504 Kcal"
+            android:text="@string/envase"
             android:textSize="24sp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
