@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private String key = "AIzaSyAgOyp6QoqaMH-PWLCW2YOqy6hT4C74auA";
-    private String uri = "Oibs4arStNA";
+    private String uri = "bndNTXjIKAE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
